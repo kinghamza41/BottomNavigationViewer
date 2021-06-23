@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="230sp"
+    android:layout_marginTop="340sp"
+    android:background="@android:color/holo_orange_dark">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tab1"
+        android:layout_marginLeft="165sp"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        />
+    <!--<Button
+        android:onClick="on_click"
+        android:layout_below="@id/tv1"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_play"
+        android:backgroundTint="@color/colorPrimary"
+        android:textColor="#fff"
+        android:textSize="10sp"
+        android:text="Play"/>-->
+
+
+</RelativeLayout>
